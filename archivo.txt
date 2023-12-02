@@ -1,2 +1,5 @@
 Hola hola hola
 estamos en el curso de git
+
+
+Segundo avance de mi archivo en git borramos un hola
