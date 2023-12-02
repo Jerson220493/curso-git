@@ -1,8 +1,15 @@
 Hola hola hola
 estamos en el curso de git
 
-Segundo avance de mi archivo en git borramos un hola
+comandos principales
+git init -> para inicializar el repositorio
+git status -> para saber como esta el estado del repositorio
+git add . -> agrega todos los cambios al git para poder hacer commit
+git add _nombreArchivo_ -> agrega un archivo especifico para que se pueda hacer commit
+git --global user.email "email" ->configura el email con el que se va comitar
+git --global user.name "name" -> configura el nombre del usuarios con el que se va a comitar
+gir commit ->guarda los cambios en el HEAD tiene su propio identificativo y se puede validar el historial de commits
 
-Tercer avanece mi edad es 30
-
-cuarto para probar el vim y borramos otro hola quedan 2
+git log _archivo con extension_ -> muestra todos los commits que se han integrado a este archivo
+git show  -> a diferencia de log aca no se ven los commit mas si se puede detallar los cambios en el archivo 
+git diff _idComit_ _idComit_ este muestra las diferencias entre las comitadas
