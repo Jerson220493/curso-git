@@ -1,5 +1,6 @@
 Hola hola hola
 estamos en el curso de git
 
-
 Segundo avance de mi archivo en git borramos un hola
+
+Tercer avanece mi edad es 30
