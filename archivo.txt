@@ -1,5 +1,3 @@
-Hola hola hola
-estamos en el curso de git
 
 comandos principales
 git init -> para inicializar el repositorio
@@ -18,6 +16,10 @@ al momento de utilizar git init se crea dos partes dentro de este repositorio, e
 se utliza el git add los archivos estan pasando al staging y al momento de dar click los archivos pasan al repositorio y liberan el staging
 que almacena datos en la memoria ram
 
+DISCO DURO -> La informacion que se esta codificando en tiempo real
+MEMORIA RAM -> La informacion que esta en el stating cuando se ejecuta el add
+REPOSITORIO -> informacion que se guarda en el repositorio despues de ejecutar el commit
+
 untracked sin git add 
 tracked con git add
 
@@ -27,8 +29,35 @@ Ramas
 
     Merge 
 
+// git reset nos devuelve al pasado sin posibilidad de volver al futuro
 git reset _idcomit_ --hard -> con este comando reseteamos a un punto de la historia con hard borra tambien el staging
 git reset _idcomit_ --soft -> con este comando todavia mantiene los cambios en el staging 
 
+// git checkout nos permite volver al pasado pero sin add o commit los cambios se mantienen es decir, nos dejaria volver a los ultimos cambios
+// este comando si cambiamos el _idComit_ por el master devolvemos el archivo a lo que tenemos guardado en el repositorio
 git checkout _idComit_ nombre del archivo -> con este comando regresamos al disco el cambio del archivo en ese commit, pero no lo modificamos en el repositorio hasta que se haga add y commit
+
+git rm
+    --cached 
+        - borra el stating
+        - borra el seguimiento
+        + mantiene la informacion en el disco duro
+    --forced 
+        - borra el stating
+        - borra el seguimiento 
+        - borra la informacion en el disco duro 
+
+git reset 
+    --soft
+        + mantiene el stating
+        - borra el repositorio
+        - mantiene la informacion en el disco duro
+    --hard 
+        - borra el staging
+        - borra el seguimiento 
+        - borra la informacion en el disco duro
+    --HEAD
+        - borra el staging
+        + mantiene el seguimiento
+        + mantiene la informacion en el disco duro
 
