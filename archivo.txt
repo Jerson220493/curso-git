@@ -13,3 +13,8 @@ gir commit ->guarda los cambios en el HEAD tiene su propio identificativo y se p
 git log _archivo con extension_ -> muestra todos los commits que se han integrado a este archivo
 git show  -> a diferencia de log aca no se ven los commit mas si se puede detallar los cambios en el archivo 
 git diff _idComit_ _idComit_ este muestra las diferencias entre las comitadas
+
+al momento de utilizar git init se crea dos partes dentro de este repositorio, el staging y el repositorio, cuando 
+se utliza el git add los archivos estan pasando al staging y al momento de dar click los archivos pasan al repositorio y liberan el staging
+que almacena datos en la memoria ram
+
