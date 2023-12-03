@@ -30,4 +30,5 @@ Ramas
 git reset _idcomit_ --hard -> con este comando reseteamos a un punto de la historia con hard borra tambien el staging
 git reset _idcomit_ --soft -> con este comando todavia mantiene los cambios en el staging 
 
+git checkout _idComit_ nombre del archivo -> con este comando regresamos al disco el cambio del archivo en ese commit, pero no lo modificamos en el repositorio hasta que se haga add y commit
 
