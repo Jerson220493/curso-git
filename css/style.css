@@ -5,3 +5,10 @@
   text-align: center;
   padding: 0 20px;
 }
+
+li {
+  padding-left: none;
+  color: green;
+  margin-left: 0;
+  text-align: left;
+}
