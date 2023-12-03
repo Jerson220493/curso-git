@@ -1,0 +1,6 @@
+Mi informacion 
+Name = jerson Gomez
+age = 30
+proffesion = System enginnering 
+profile = intelligent, beautifull and very very happy 
+

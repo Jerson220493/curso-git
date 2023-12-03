@@ -18,3 +18,16 @@ al momento de utilizar git init se crea dos partes dentro de este repositorio, e
 se utliza el git add los archivos estan pasando al staging y al momento de dar click los archivos pasan al repositorio y liberan el staging
 que almacena datos en la memoria ram
 
+untracked sin git add 
+tracked con git add
+
+Ramas 
+    Master en donde estan los cambios en mi rama v1 v2
+    Experimentos nueva rama
+
+    Merge 
+
+git reset _idcomit_ --hard -> con este comando reseteamos a un punto de la historia con hard borra tambien el staging
+git reset _idcomit_ --soft -> con este comando todavia mantiene los cambios en el staging 
+
+
