@@ -9,3 +9,10 @@
 p {
   color: blueviolet;
 }
+
+li {
+  padding-left: none;
+  color: green;
+  margin-left: 0;
+  text-align: left;
+}
