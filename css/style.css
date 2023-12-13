@@ -7,7 +7,7 @@
 }
 
 p {
-  color: blueviolet;
+  color: blue;
 }
 
 li {
@@ -15,4 +15,5 @@ li {
   color: green;
   margin-left: 0;
   text-align: left;
+  text-shadow: midnightblue;
 }
