@@ -6,6 +6,10 @@
   padding: 0 20px;
 }
 
+p {
+  color: brown;
+}
+
 li {
   padding-left: none;
   color: green;
