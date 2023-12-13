@@ -61,3 +61,6 @@ git reset
         + mantiene el seguimiento
         + mantiene la informacion en el disco duro
 
+git checkout master 
+    // incorpora los cambios de la cabecera en el master
+    * git merge cabecera
