@@ -64,3 +64,42 @@ git reset
 git checkout master 
     // incorpora los cambios de la cabecera en el master
     * git merge cabecera
+
+// para enviar los cambios a un repositorio remoto 
+git push origin main 
+
+// para ver cual es la rama remota 
+git remote 
+
+// para asignar la rama remota a una url 
+git remote origin _url_
+++ aca si tiene asignada la conexion ssh si no tendra que autenticar 
+
+VERSIONES Y TAGS EN GIT Y GITHUB
+// con este comando podemos ver logs de git de forma mas amena
+$ git log --all --graph --decorate --oneline
+
+// esta la forma de crear un tag que es como una manera de versionar el proyecto 
+$ git tag -a v0.1 -m "Resultado de las primeras clases" 4789bc4
+
+$ git tag // para ver los tags que estan creados actualmente 
+
+// para ver los commits que estan referenciados en los tags 
+$ git show-ref --tags
+
+// para enviar al repositorio remoto todos los tags que tengamos guardados 
+$ git push origin --tags
+
+// para eliminar un tag de manera local 
+$ git tag -d dormido
+
+// para eliminar un tag que ya esta enviado al repositorio
+$ git push origin :refs/tags/dormido
+
+RAMAS EN GIT HUB
+git checkout _rama a la que vamos a activar_
+git branch _muestra las ramas que tenemos_
+git show-branch --all _muestra un detallado de las ramas__
+gitk _muestra una interfas grafica de las ramas_
+
+
