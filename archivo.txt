@@ -101,5 +101,9 @@ git checkout _rama a la que vamos a activar_
 git branch _muestra las ramas que tenemos_
 git show-branch --all _muestra un detallado de las ramas__
 gitk _muestra una interfas grafica de las ramas_
+git branch _nombre de la rama_ crea una nueva rama
 
+git clone _url_ es la forma de descargar un proyecto de GITHUB
+si el proyecto es publico se puede descargar sin problema, pero igual se necesitan los permisos para enviar informacion
+el dueño del repo debe agregar con el email o usuario a la persona que va a tener derechos de enviar informacion
 
