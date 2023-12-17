@@ -107,3 +107,16 @@ git clone _url_ es la forma de descargar un proyecto de GITHUB
 si el proyecto es publico se puede descargar sin problema, pero igual se necesitan los permisos para enviar informacion
 el dueño del repo debe agregar con el email o usuario a la persona que va a tener derechos de enviar informacion
 
+fork -> clona el repositorio pero en tus repositorios remotos 
+
+// integracion continua
+Para desplegar un proyecto en un servidor real, se debe instalar git en ese servidor 
+y despues se puede clonar o hacer pull directamente en el servidor 
+
+git pull origin master
+
+// ignorar archivos en el repositorio
+gitignore
+buena practica evitar que los archivos binarios 
+crear un nuevo archivo y guardar en la raiz .gitignore
+ *.jpg -- ignora todos los archivos
