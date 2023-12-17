@@ -124,5 +124,17 @@ crear un nuevo archivo y guardar en la raiz .gitignore
  -++++++++++++++++++++++++++++++++ esto es superimportante ++++++++++++++++++++++++++++++++++-
  siempre siempre hacer el commit y despues hacer pull para despues hacer el push
  es un proceso se auto merge la rama entrante con la local y combina los cambios 
- 
 
+// git rebase 
+agarrar una rama e integrarla a la rama actual pero borra todo el historial
+primero se hace rebase en la rama fixbug y luego rebase en la rama master
+
+// borrar ramas
+git branch -D _nombre de la rama_
+
+// guardar cambios temporales antes de hacer el commit
+git stash  // guarda el stash temporal
+git stash list  // muestra la lista de stash
+git stash pop // vuelve a traer los cambios guardados en el stach
+git stash branch english-version  // crea una rama y guarda el stach en esa rama
+git stash drop // borra el stach si ya no se va a usar
