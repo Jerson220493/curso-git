@@ -120,3 +120,9 @@ gitignore
 buena practica evitar que los archivos binarios 
 crear un nuevo archivo y guardar en la raiz .gitignore
  *.jpg -- ignora todos los archivos
+
+ -++++++++++++++++++++++++++++++++ esto es superimportante ++++++++++++++++++++++++++++++++++-
+ siempre siempre hacer el commit y despues hacer pull para despues hacer el push
+ es un proceso se auto merge la rama entrante con la local y combina los cambios 
+ 
+
