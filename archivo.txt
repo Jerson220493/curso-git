@@ -138,3 +138,46 @@ git stash list  // muestra la lista de stash
 git stash pop // vuelve a traer los cambios guardados en el stach
 git stash branch english-version  // crea una rama y guarda el stach en esa rama
 git stash drop // borra el stach si ya no se va a usar
+
+
+// git clean 
+borrar los archivos duplicados 
+git clean --dry-run  // comando para visualizar los posibles archivos a borrar
+git clean -f  // borra todos los archivos 
+
+
+// git cherry-pick 
+// es una manera de actualizar solo un fragmento del avance de otra rama si tiene varios commits 
+// con el identificado de ese commit se agregan esos cambios
+git cherry-pick _id_commit_   // combinamos un commit expecifico de otra rama
+
+// git reset y reflog 
+git reflog  // muestra la historia de todos los head 
+git reset 
+    ** hard -> borra lo que tengamos en stating
+    ** soft -> mantiene lo que tengamos en stating
+
+//git amend
+// git amend envia a cambios a un commit que ya fue creado 
+// para utilizarlo se debe tener en cuenta que el archivo se de debe agregar _add_
+git commit --amend 
+
+// git grep   // busca coincidencias 
+git grep _palabra_ // muestra los archivos donde esta la _palabra_
+git grep -n _palabra_ // muestra los archivos y la ubicacion de esta _palabra_
+
+git log -S "cabecera"  // cuenta commits que tengan la palabra cabecera
+
+git shortlog -sn // muestra la cantidad de commits hechos por cada usuario
+git shortlog -sn --all // muestra la cantidad de commits hechos por cada usuario incluyendo los borrados
+git shortlog -sn --all --no-merges // muestra la cantidad de commits hechos por usuario incluyendo los borrados pero no cuenta los merge
+
+git blame _archivo.txt_  // muestra quien ha hecho cada uno de los cambios a un archivo
+
+git _comando_  --help  // muestra como funciona un comando especifico
+
+git blame -c index.html -L20,30 // muestra los cambios hechos por usuarios en las lineas especificadas
+
+git branch    // muestra las ramas locales
+git branch -r // muestra las ramas remotas
+git branch -a // muestra todas las ramas remotas y locales
